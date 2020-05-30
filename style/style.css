@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+
+body{
+    --background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    height: 100px;
+    position: fixed;
+    background-color: rgb(17, 12, 87);
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    padding-top: 20 px;
+    margin-left: 10%;
+    color: white;
+   
+    
+}
+
+.logo a {
+margin-top: 10%;
+line-height: 100px;
+ font-size: 40px;
+  text-decoration: none;
+ color: white;
+}
+
+.menu{
+  
+    float:right;
+    margin-right : 10%;
+    margin-top:1.7%;
+}
+
+.menu  ul{
+    margin : 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+   
+}
+
+.menu ul li  a{
+   margin-left: 10px;
+   margin-right: 10px;
+   line-height: 50px; 
+   background-color: white;
+   padding: 4px 6px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 12px;
+}
+.menu ul li  a:hover{
+background-color: lightblue;
+color:red;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background:lightblue;
+    padding: 20px 0px;
+
+    
+}
+
+.footer-sec1 {
+    width:100%;
+    height: auto;
+    margin: auto;
+}
+.footer-sec1 ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    
+
+}
+ 
+
+.footer-icons {
+	padding: 160px 0;
+	text-align: center;
+}
+.footer-icons li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+.footer-icons li a {
+	color: #fff;
+	text-decoration: none;
+}
+footer-text{
+text-align: center;
+}
+
+/**
+ * Tooltips
+ */
+
+.opened{
+    color: rgb(255, 0, 47);
+    font-weight: bold;
+}
+ 
+
+/**
+table AI TYPES PAGE 3
+*/
+table ,tr ,th, td {
+border:2px solid rgb(25, 38, 30);
+border-collapse: collapse;
+}
+th {
+    background-color: rgb(225, 222, 222);
+}
+/**
+table  advantages PAGE 4
+*/
+.centering{
+    text-align: center;
+    color: rgba(245, 21, 21, 0.686);
+}
+
+h6{
+    color: rgb(75, 61, 167);
+}
